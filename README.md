@@ -50,7 +50,7 @@ $ flutter drive --driver=test_driver/integration-test/driver/integration_test_dr
 $ flutter devices
 ```
 
-- Config targetDeviceId in [app_test.dart](bdd-test/app_test.dart)
+- Config targetDeviceId in [app_test.dart](test_driver/bdd-test/app_test.dart)
 ```
 Ex: (Android), default empty string
 ..targetDeviceId = "emulator-5554"
